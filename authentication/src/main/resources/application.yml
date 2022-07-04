@@ -1,0 +1,30 @@
+server:
+  error:
+    include-stacktrace: never
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/myproject
+    username: vicky
+    password: Vicky@1999
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vsv9071@gmail.com
+    password: etkwsrrypphldwjq
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  
+            
