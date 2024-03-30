@@ -34,6 +34,7 @@ public class UserService implements UserDetailsService{
 	@Autowired
 	private final ConfirmationTokenService confirmationTokenService;
 	
+	@SuppressWarnings("unused")
 	private static final Logger LOGGER = LoggerFactory.getLogger(UserService.class);
 	
 	@Override
